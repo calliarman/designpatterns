@@ -2,11 +2,23 @@ package creational.singleton;
 
 public class DBSingleton {
 
-    private static DBSingleton singleton = new DBSingleton();
+    //volatile thread safe
+    private static volatile DBSingleton instance = null;
 
-    private DBSingleton(){}
+    //one constructor with no args
+    private DBSingleton() {
+        if (instance != null)
+            throw new RuntimeException("Use getInstance() method to create");
+    }
 
-    public static DBSingleton getInstance(){
-        return singleton;
+    public static DBSingleton getInstance() {
+        if (instance == null)
+            synchronized (DBSingleton.class) {
+                if (instance == null) {
+                    instance = new DBSingleton();
+                }
+            }
+
+        return instance;
     }
 }
