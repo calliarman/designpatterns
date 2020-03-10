@@ -1,0 +1,5 @@
+example Calendar
+
+each time new instance is created
+
+implemented with a factory

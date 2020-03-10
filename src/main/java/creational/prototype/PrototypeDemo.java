@@ -13,6 +13,7 @@ public class PrototypeDemo {
 
 
         Movie anotherMovie = (Movie) registry.createItem("Movie");
+        movie.setTitle("Creational Patterns in Java");
 
         System.out.println(movie.hashCode());
         System.out.println(anotherMovie.hashCode());
