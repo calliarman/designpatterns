@@ -3,7 +3,6 @@ package creational.builder;
 import lombok.Builder;
 import lombok.Data;
 
-@Builder
 @Data
 public class LunchOrder {
     private final String bread;
@@ -67,7 +66,7 @@ public class LunchOrder {
         System.out.println(lunchOrder);
 
 
-        LunchOrder lombok = LunchOrder.builder()
+        /*LunchOrder lombok = LunchOrder.builder()
                 .bread("Wheat")
                 .condiments("Lettuce")
                 .dressing("Mayo")
@@ -75,6 +74,6 @@ public class LunchOrder {
                 .build();
 
 
-        System.out.println(lombok);
+        System.out.println(lombok);*/
     }
 }
