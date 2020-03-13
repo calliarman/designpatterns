@@ -1,0 +1,3 @@
+object per command
+encapsulates action
+second most use pattern
