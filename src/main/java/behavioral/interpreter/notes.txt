@@ -1,1 +1,4 @@
 Interpret a sentence
+
+class per rule
+

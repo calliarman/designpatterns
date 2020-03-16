@@ -8,6 +8,7 @@ public class InterpreterEverydayDemo {
 	public static void main(String[] args) {
 		String input = "Lions, and tigers, and bears! Oh, my!";
 
+		//case sensitive
 		Pattern p = Pattern.compile("(lion|cat|dog|wolf|bear|human|tiger|liger|Lion)");
 		Matcher m = p.matcher(input);
 

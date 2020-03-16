@@ -17,6 +17,7 @@ public class InterpreterDemo {
 		// Lions or (Tigers and Bears)
 		Expression alternation2 = new OrExpression(terminal1, alternation1);
 
+		//Bears and (Lions or (Tigers and Bears))
 		return new AndExpression(terminal3, alternation2);
 	}
 
@@ -30,9 +31,15 @@ public class InterpreterDemo {
 		// String context = "Lions";
 		// String context = "Tigers";
 		// String context = "Bears";
+
 		// String context = "Lions Tigers";
+		// false
+
 		// String context = "Lions Bears";
+		// true
+
 		String context = "Tigers Bears";
+		// true
 
 		Expression define = buildInterpreterTree();
 
