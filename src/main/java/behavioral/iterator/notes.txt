@@ -1,0 +1,7 @@
+iterable interface
+iterator(), hasnext(), next(), remove()
+
+no index
+
+fast
+

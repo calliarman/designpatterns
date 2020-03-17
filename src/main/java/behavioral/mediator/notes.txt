@@ -1,0 +1,10 @@
+loose coupling
+
+router
+
+reusable
+
+example
+    java.util.Timer
+
+command & mediator can be used together
