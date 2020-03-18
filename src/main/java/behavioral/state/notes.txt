@@ -1,0 +1,15 @@
+OCP
+
+S
+Open for extensions, close for modifications
+L
+I
+D
+
+example
+    none
+
+
+more classes
+class per state
+similar to strategy

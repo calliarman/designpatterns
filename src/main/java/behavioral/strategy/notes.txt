@@ -1,0 +1,10 @@
+class per algorithm/strategy
+client aware of strategies
+
+example
+    java.util.Comparator
+
+removes if/else
+
+similar to state pattern but used for different reason
+
