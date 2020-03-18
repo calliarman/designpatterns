@@ -1,0 +1,11 @@
+one to many
+
+broadcast
+
+pub/sub
+
+example
+    java.util.Observer
+    java.util.EventListener
+
+used with mediator (Subject is mediator)

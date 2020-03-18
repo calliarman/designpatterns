@@ -1,0 +1,21 @@
+restore object to previous state
+
+undo/rollback
+
+shield
+
+example
+    java.util.Date
+    java.io.Serializable
+
+
+Originator, Caretaker, Memento
+
+pitfalls
+    expensive
+
+Serialization in Java is a mechanism of writing the state of an object into a byte-stream.
+It is mainly used in Hibernate, RMI, JPA, EJB and JMS technologies.
+
+For serializing the object, we call the writeObject() method ObjectOutputStream.
+For deserialization we call the readObject() method of ObjectInputStream class.
