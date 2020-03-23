@@ -1,0 +1,9 @@
+wrapper
+
+single resposibility princible
+
+composition + overridden method
+
+new class for every feature added
+
+original object stay same

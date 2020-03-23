@@ -1,0 +1,11 @@
+example
+    Driver
+    JDBC
+
+none of the sides of the bridge know each other
+
+shape color demo
+
+complex
+flexibility
+more than composition

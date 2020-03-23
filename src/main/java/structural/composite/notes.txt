@@ -1,0 +1,12 @@
+example
+    java.awt.Component
+    JSF widgets
+    RESTful service GETs
+
+difficult to restrict
+
+tree structure
+
+composition is object contain another object
+
+hierarchical structure

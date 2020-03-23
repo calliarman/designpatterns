@@ -6,6 +6,8 @@ L
 I
 D
 
+open/closed princible
+
 example
     none
 

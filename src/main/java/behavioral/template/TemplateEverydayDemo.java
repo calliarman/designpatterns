@@ -1,4 +1,4 @@
-package com.pluralsight.template;
+package behavioral.template;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,7 +24,8 @@ public class TemplateEverydayDemo {
 		
 		System.out.println("Not sorted");
 		printContents(people);
-		
+
+		//Person is Comparable
 		Collections.sort(people);
 		
 		System.out.println("\nSorted by age");

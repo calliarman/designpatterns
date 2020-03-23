@@ -1,0 +1,13 @@
+separate algorithm from object
+
+open/closed princible
+
+example
+    java.lang.model.element.Element
+    java.lang.model.element.ElementVisitor
+
+interface based
+
+elements have visit method
+
+multiple visitor

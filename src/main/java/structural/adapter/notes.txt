@@ -1,0 +1,5 @@
+example
+    Arrays ->List
+    Stream
+
+integrate with legacy

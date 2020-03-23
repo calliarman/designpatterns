@@ -1,4 +1,4 @@
-package com.pluralsight.visitor;
+package behavioral.visitor;
 
 public class Oil implements AtvPart {
 	@Override

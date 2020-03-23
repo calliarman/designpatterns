@@ -1,0 +1,16 @@
+efficient memory usage
+
+immutable
+
+example
+    java.lang.String
+    java.lang.Integer#valueOf(int)
+    Boolean, Byte, Character, Short, Long
+
+pattern of patterns
+
+performance boost
+
+used with factory
+
+used a lot by the core API

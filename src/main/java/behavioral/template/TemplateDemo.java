@@ -1,4 +1,4 @@
-package com.pluralsight.template;
+package behavioral.template;
 
 public class TemplateDemo {
 

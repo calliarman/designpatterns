@@ -1,0 +1,16 @@
+make API easier to use
+
+refactoring
+
+example
+    java.net.URL
+
+facade includes complex codes
+
+the singleton of structural pattern
+
+facade is similar with adapter
+adapter modifies behaviour and provides different interface
+facade simplifies interface and provides cleaner api
+
+easy to implement

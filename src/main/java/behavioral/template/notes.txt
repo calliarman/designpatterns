@@ -1,0 +1,11 @@
+code reuse
+
+IoC inversion of control
+
+example
+    java.util.Collection#sort()
+    java.util.AbstractList#indexOf()
+
+class based
+
+common method implementation

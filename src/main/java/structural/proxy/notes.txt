@@ -1,0 +1,14 @@
+interface by wrapping
+
+example
+    java.lanf.reflect.Proxy
+    java.rmi.*
+
+interface based
+
+security
+
+pitfalls
+    only one proxy
+
+used by DIJ/IOC frameworks
